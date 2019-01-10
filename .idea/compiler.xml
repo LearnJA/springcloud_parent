@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_eureka_hello_server" />
+        <module name="springcloud_eureka_server" />
+        <module name="springcloud_ribbon_resttemplate_client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud_eureka_hello" target="1.6" />
+      <module name="springcloud_hello_server" target="1.6" />
+      <module name="springcloud_ribbon_resttemplate" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

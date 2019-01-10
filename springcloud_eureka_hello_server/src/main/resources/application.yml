@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.43.247:8761/eureka,http://192.168.43.247:8762/eureka
+server:
+  port: 8989
+spring:
+  application:
+    name: hello-service
